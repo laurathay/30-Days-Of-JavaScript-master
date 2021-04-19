@@ -1,5 +1,5 @@
 // this is your main.js script
-
+//EX.1
 let challenge = '30 days of JavaScript';
 
 console.log(challenge);
@@ -17,6 +17,7 @@ console.log(challenge.charCodeAt('J'));
 console.log(challenge.indexOf('a'));
 console.log(challenge.lastIndexOf('a'));
 
+//EX2
 let sentence = 'You cannot end a sentence with because because because is a conjunction';
 console.log(sentence.indexOf('because'));
 console.log(sentence.search('because'));
@@ -56,14 +57,17 @@ console.log(valeur);
 const valeurbis = Math.floor(Math.random()*51) + 50;
 console.log(valeurbis);
 
-console.log([1, 1, 1, 1, 1,
-    2, 1, 2, 4, 8,
-    3, 1, 3, 9, 27,
-    4, 1, 4, 16, 64,
-    5, 1, 5, 25, 125,]);
+const tableau =('1 1 1 1 1 2 1 2 4 8 3 1 3 9 27 4 1 4 16 64 5 1 5 25 125'); //irrésolu, je ne sais pas comment le mettre en cadriller
+console.log(tableau.split(''));
 
 let phrase = 'You cannot end a sentence with because because because is a conjunction';
 console.log(phrase.substr('because because because')); //pour supprimer il faut mettre le numero de string
 console.log(phrase.substr(30,31));
 
+//EX.3
 
+let lovesentence = 'Love is the best thing in this world. Some found their love and some are still looking for their love.';
+console.log(lovesentence.match('love'));
+
+const sentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching'
+console.log(sentence.trim('%, $, @, #'))
