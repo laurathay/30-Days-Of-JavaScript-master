@@ -97,4 +97,52 @@ console.log(m);
 
 // question 9 
 
+const hours = 40;
+const ratePerHours = 28;
+const weeklyEarning = 1120;
+
+console.log(hours*ratePerHours);
+
+//question 10 
+// const gaga = gaga.length();
+const gaga = 'Laura'; //à écrire comme ca car il faut une chaine de caractère et apres on introduit la condition 
+if (gaga.length > 7 || gaga.length === 7) {
+    console.log("you have a long name");
+} else {
+    console.log("your name is hort");
+}
+
+console.log(gaga);
+
+// let prenom = lengthIsAbove7 ? "long name" : "short name";
+
+// question 11 
+const firstName = 'Laura';
+const lastName = 'Thay';
+if (firstName.length > lastName.length){
+    console.log(('Your frist name,' + firstName + 'is longer than your family name,' + lastName));
+} else {
+    console.log(('Your frist name,' + firstName + 'is shorter than your family name,' + lastName));
+}
+
+//question 12
+let myAge = 250;
+let yourAge = 15;
+let vraiAge = myAge - yourAge;
+console.log('I am ' + vraiAge + ' older than you');
+
+//question 13 
+prompt 
+
+let age = prompt('When were you born?');
+if (age <= 18) {
+    console.log('attendez encore un peu');
+} else {
+    console.log('vous avez le bon age, allez-y');
+}
+
+//question 14
+let numberOfYears = prompt('enter number of yours you live');
+let numerous = numberOfYears.getSeconds();
+console.log(numerous);
 
