@@ -1,3 +1,11 @@
-// this is your main.js script
+// Ex.1 
+const ageRequis = 18;
+const age = prompt("Enter your age");
+if (age >= ageRequis) {
+    console.log('Your are old enough to drive');
+} else {
+    (ageRequis - age)
+    console.log(`Wait for ${ageRequis - age}  a bit`); //guillemet inversé avec le dollar
+};
 
-alert('Open the browser console whenever you work on JavaScript')
+
