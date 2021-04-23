@@ -109,16 +109,12 @@ switch (season) { // a faire pour tout les autres mois mais flemmes
 }
 
 //question 3 
-let today = prompt('what is the day today ?')
-if (today ===  0) {
-  console.log(`${a} is a positive number`)
-} else if (a < 0) {
-  console.log(`${a} is a negative number`)
-} else if (a == 0) {
-  console.log(`${a} is zero`)
-} else {
-  console.log(`${a} is not a number`)
-}
+let today = prompt('what is the day today ?');
+if (today ===  'monday' || 'tuesday' || 'wednesday' || 'thursday' || 'friday') {
+  console.log(`${today} is a weekday`);
+} else (today === 'saturday' || 'sunday') {
+  console.log(`${today} is a negative number`);
+};
 
 
 //Exercise 3 
