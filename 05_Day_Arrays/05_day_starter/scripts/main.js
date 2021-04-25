@@ -1,3 +1,10 @@
-console.log(countries)
-alert('Open the browser console whenever you work on JavaScript')
-alert('Open the console and check if the countries has been loaded')
+//Exercise 1
+
+//question 1
+let arr = Array()
+console.log(arr)
+
+//question 2
+let number5 = Array(['1', '2',' 3', '4', '5'])
+console.log(number5)
+console.log(number5.length)
