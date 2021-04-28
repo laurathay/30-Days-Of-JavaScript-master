@@ -118,9 +118,33 @@ console.log(itCompanies.splice(0, 1))
 
 
 //Ex 2
+// question 1 import 
 // importScripts.countries.js
 // importScripts(URL:countries)
 
-import 'web_tech.js';
+let pays = [
+    'France',
+    'Singapour',
+    'Australie',
+    'Corée du Sud',
+    'Indonésie'
+]
 
-console.log(webTechs())
+let webTechs = [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'React',
+    'Redux',
+    'Node',
+    'MongoDB'  
+]
+
+//question 2 
+let text =
+'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
+console.log(text)
+console.log(text.length)
+
+let tableau = text.split('')
+console.log(tableau);
